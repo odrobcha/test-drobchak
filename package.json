@@ -9,7 +9,13 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-drop-image-and-preview": "github:fabiofranchino/vue-drop-image-and-preview",
+    "vue-image-crop-upload": "^2.5.0",
+    "vue-rokka-uploader": "github:rokka-io/vue-rokka-uploader",
+    "vue-router": "^3.5.1",
+    "vuejs-datepicker": "^1.6.2",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

@@ -1,28 +1,36 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
-</template>
+    <div>
 
+        <the-test-navigation></the-test-navigation>
+        <router-view></router-view>
+         <!--place where selected routed componets should be load -->
+    </div>
+
+
+</template>
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import TheTestNavigation from "./components/TheTestNavigation";
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    components: {
+      TheTestNavigation,
+    },
+
+
+    methods: {
+    },
+    data() {
+        return {
+        };
+    },
+
+};
+
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    @import './assets/scss/style.scss';
+
 </style>
+
